@@ -28,14 +28,14 @@
     <title>Week-end Challenge</title>
 </head>
 
-<!---------------------------------------------------------------- PARTIE 1  --------------------------------------------------------->
+<!--------------------------------------------- PARTIE 1 SANOGO -------------------------------------------->
 
 <body class="container-xxl ">
     <!-- Le header -->
     <header class="header1 row text-white p-5">
 
         <!-- La barre de navigation -->
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav id="#navbarNavDropdown" class="navbar navbar-expand-md navbar-light">
 
             <!-- Le logo  -->
             <div class="navbar-brand">
@@ -67,7 +67,7 @@
                         <a class="" href="#">Page +</a>
                     </li>
                     <li class="nav-item m-3">
-                        <a class=" nav-link text-white m-b-15" href="#">Hire us <svg xmlns="http://www.w3.org/2000/svg"
+                        <a class="btn-hv nav-link text-white m-b-15" href="#">Hire us <svg xmlns="http://www.w3.org/2000/svg"
                                 width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                 <path
                                     d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
@@ -86,7 +86,7 @@
                 <p class="text-green h1 mb-5 ft-pop-semi-bold">
                     Hello,our names are Nemar, Valentin and Brahima. Data IA Developpers.
                 </p>
-                <a href="#" class="p-link text-white ft-pop-med">Contact us <svg xmlns="http://www.w3.org/2000/svg"
+                <a href="#" class="p-link btn-hv text-white ft-pop-med">Contact us <svg xmlns="http://www.w3.org/2000/svg"
                         width="16" height="16" fill="currentColor" class="bi bi-arrow-right" color="white"
                         viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -107,40 +107,57 @@
     <!-------------------------------------- PARTIE 2 Nemar ----------------------------------------------->
 
     <!-- 2IEME PARTIE DU SITE -->
-    <section id="section_competence">
-        <div id="block_image">
-            <img src="Assets/images/social-html5-outline-1.png" alt="">
-            <img src="Assets/images/social-css3-outline-1.png" alt="">
-            <img src="Assets/images/social-sass-1.png" alt="">
-            <img src="Assets/images/social-nodejs-1.png" alt="">
-            <img src="Assets/images/social-angular-outline-1.png" alt="">
-            <img src="Assets/images/social-python-1.png" alt="">
-        </div>
-        <div id="titre">
-            <div id="groupe">
-                <h1>What I Do</h1>
-                <h2>Service offer.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                    mattis, pulvinar dapibus leo.</p>
+    <section class="container-xxx border" id="section_competence">
+        <div class="row" id="block_image">
+            <div class="col-md-2">
+                <img src="Assets/images/social-html5-outline-1.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="Assets/images/social-css3-outline-1.png" alt="">
+            </div> 
+            <div class="col-md-2">
+                <img src="Assets/images/social-sass-1.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="Assets/images/social-nodejs-1.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="Assets/images/social-angular-outline-1.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="Assets/images/social-python-1.png" alt="">
             </div>
         </div>
+    </section>
 
-        <div id="competences">
-            <div id="design">
+
+    <div class="mt-5 mb-5" id="titre">
+        <div id="groupe">
+            <h1 class=" text-green ft-pop-20-semi-bold">What we do</h1>
+            <h2>Service offer.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                mattis, pulvinar dapibus leo.</p>
+        </div>
+    </div>
+
+
+    <section class="container-xxx border">
+        <div class="row" id="competences">
+            <div class="col-md-4" id="design">
                 <img src="Assets/images/service-1-1.png" alt="">
                 <h3>UI / UX Design</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
                     mattis, pulvinar dapibus leo.</p>
                 <a href="#">See More<i class="fas fa-arrow-right"></i></a>
             </div>
-            <div id="web">
+            <div class="col-md-4" id="web">
                 <img src="Assets/images/service-2-1.png" alt="">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
                     mattis, pulvinar dapibus leo.</p>
                 <a href="#">See More<i class="fas fa-arrow-right"></i></a>
             </div>
-            <div id="app">
+            <div class="col-md-4" id="app">
                 <img src="Assets/images/service-3-1.png" alt="">
                 <h3>App Development</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
@@ -170,9 +187,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                     Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br>
                 </span>
-            <div class="back-white  width-180  height-60  flex  justify-center  align-center  radius-10">
-                <a href="" class="green  font-poppins  font-normal  font-14  font-weight-500  text-none">Contact us</a>
-            </div>
+                <a href="#" class="other-links other-link-1 ft-pop-med">Contact us</a>
             </p>
         </aside>
 
@@ -182,7 +197,7 @@
 
 
 
-    <!---------------------------------------------------------------- PARTIE 4 Sanogo  --------------------------------------------------------->
+    <!---------------------------------------- PARTIE 4 Sanogo  ----------------------------------------->
 
     <!-- La section why choose us -->
     <section class=" container-fluid row mt-5">
@@ -245,7 +260,7 @@
             </div>
         </div>
     </section>
-    <!---------------------------------------------------------------- PARTIE 5  --------------------------------------------------------->
+    <!---------------------------------------------- PARTIE 5 NEMAR ------------------------------------>
     <div class="disp-flex col-flex">
         <h1 class=" text-green ft-pop-20-semi-bold">Portfolio </h1>
         <p class=" ft-pop-42-semi-bold ">Selected Works
@@ -295,8 +310,10 @@
 
     </section>
 
+    <!----------------------------------------- PARTIE 6 VALENTIN  ---------------------------->
+
     <!-- Pricing -->
-    <section class="margin-top-20">
+    <section class="margin-top-20 mt-5 mb-5">
         <p class="flex  flex-column  align-center">
             <span class="green  font-poppins  font-normal  font-20  font-weight-500">
                 Pricing<br>
@@ -309,9 +326,10 @@
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br>
             </span>
         </p>
-
-        <section class="row">
-            <div class="col-12  col-lg-4  flex  flex-column  align-center  justify-around  height-400  radius-10">
+        </section>
+<section class="container">
+        <section class=" row mt-5 disp-flex just-cont-space-around mb-5 ">
+            <div class=" price-shadow col-md-3  flex  flex-column  align-center  justify-around  height-400  radius-10">
                 <p>
                     <span class="black  font-poppins  font-normal  font-28  font-weight-600  line-36">
                         Personal
@@ -328,15 +346,11 @@
                         Lorem ipsum dolor amet adi<br> ciptum ora ena nase.
                     </span>
                 </p>
-                <div class="back-green  width-180  height-60  flex  justify-center  align-center  radius-10">
-                    <a href="" class="white  font-poppins  font-normal  font-16  font-weight-500  text-none">
-                        Select Plan
-                    </a>
-                </div>
+                <a href="#" class="p-link btn-hv text-white ft-pop-med">Select plan</a>
             </div>
 
             <div
-                class="col-12  col-lg-4  back-green  flex  flex-column  align-center  justify-around  height-400  radius-10">
+                class=" col-md-3 price-shadow back-green  flex  flex-column  align-center  justify-around  height-400  radius-10">
                 <p>
                     <span class="white  font-poppins  font-normal  font-28  font-weight-600  line-36">
                         Profesional
@@ -353,14 +367,11 @@
                         Lorem ipsum dolor amet adi<br> ciptum ora ena nase.
                     </span>
                 </p>
-                <div class="back-white  width-180  height-60  flex  justify-center  align-center  radius-10">
-                    <a href="" class="green  font-poppins  font-normal  font-16  font-weight-500  text-none">
-                        Select Plan
-                    </a>
-                </div>
+                <a href="#" class="other-links other-link-1 ft-pop-med">Contact us</a>
+
             </div>
 
-            <div class="col-12  col-lg-4  flex  flex-column  align-center  justify-around  height-400  radius-10">
+            <div class="col-md-3 price-shadow flex flex-column  align-center  justify-around  height-400  radius-10">
                 <p>
                     <span class="black  font-poppins  font-normal  font-28  font-weight-600  line-36">
                         Business
@@ -377,22 +388,19 @@
                         Lorem ipsum dolor amet adi<br> ciptum ora ena nase.
                     </span>
                 </p>
-                <div class="back-green  width-180  height-60  flex  justify-center  align-center  radius-10">
-                    <a href="" class="white  font-poppins  font-normal  font-16  font-weight-500  text-none">
-                        Select Plan
-                    </a>
-                </div>
+                <a href="#" class="p-link btn-hv text-white ft-pop-med">Select plan</a>
+
             </div>
         </section>
     </section>
 
 
 
-    <!---------------------------------------------------------------- PARTIE 7  --------------------------------------------------------->
+    <!----------------------------------------- PARTIE 7  SANOGO -------------------------------------->
 
     <!-- La section témoignage  -->
-    <section class="container">
-        <div class="row">
+    <section class="container mt-5 mb-5">
+        <div class="row mb-5 mt-5">
             <!-- Titre et petite phrase d'introduction -->
             <div class="disp-flex col-flex align-items-center text-center mt-5">
                 <h1 class=" text-green ft-pop-20-semi-bold text-center">Testimoni </h1>
@@ -401,8 +409,7 @@
                 </p>
                 <p class="ft-pop-reg-16">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut iure vero reprehenderit
-                    accusamus id quas Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dolorum reprehenderit ab non iusto explicabo amet illum velit nesciunt? Voluptatum exercitationem
+                    accusamus id quas Lorem ipsum dolor si Voluptatum exercitationem
                 </p>
             </div>
         </div>
@@ -485,36 +492,19 @@
 
 
 
-    <section class="container disp-flex col-flex justify-content-center align-items-center bg-green pad-40 brd-radius-25 mt-5">
-       <h1 class="display-1 ft-pop-42-semi-bold text-center text-white">
-        Interested Working
-        With me? Let's connect!
-    </h1>
-    <a class="last m-b-15 brd-radius-14" href="#">Hire us </a>
+    <section
+        class="container disp-flex col-flex justify-content-center align-items-center bg-green pad-40 brd-radius-25 mt-5">
+        <h1 class="display-1 ft-pop-42-semi-bold text-center text-white">
+            Interested Working
+            With me? Let's connect!
+        </h1>
+        <a class="last last-hv m-b-15 brd-radius-14" href="#">Hire us </a>
     </section>
 
-
-
-
-
-
-
-
-    <!-- <section id="interested">
-        <div id="interested_container">
-            <h1>Interested Working <br>
-                With me? Let's connect!</h1>
-            <a href="">Contact Me</a>
-            <p id="img1"><img src="Assets/images/circle-pink-1.png" alt=""></p>
-            <p id="img2"> <img src="Assets/images/circle-purple-1.png" alt=""></p>
-            <p id="img3"><img src="Assets/images/round-grey-1.png" alt=""></p>
-            <p id="img4"><img src="Assets/images/round-grey-1.png" alt=""></span>
-        </div>
-    </section> -->
-
+<!-------------------------------------- La partie 9 Valentin  ---------------------------->
 
     <!-- Footer -->
-    <footer class="back-green-2  grid  grid-1-1  margin-top-20  padding-top-20  padding-bottom-20  height-270">
+    <footer class="back-green-2 grid  grid-1-1  margin-top-20  padding-top-20  padding-bottom-20  height-270">
         <p class="flex  flex-column  align-center">
             <span class="white  font-poppins  font-normal  font-25  font-weight-500">
                 PORTOSIA

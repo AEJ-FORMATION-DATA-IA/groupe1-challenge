@@ -10,9 +10,16 @@
 }
 .header1{
     background-color: #F2EFEF;
+    height:auto;
 }
 .m-b-15{
     margin-bottom: 15px;
+}
+.price-shadow{
+    box-shadow: 0 0 10px rgb(174, 171, 171);
+}
+.just-cont-space-around{
+    justify-content: space-around;
 }
 .link{
     text-decoration: none;
@@ -89,6 +96,28 @@ li a:hover{
     padding: 12px 36px;
     background-color: #fff;
     text-decoration: none;
+}
+.last-hv:hover{
+    color: #41B883;
+    transform: scale(1.4, 1.4);
+}
+.other-links{
+    padding: 12px 36px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #30e983;
+}
+.other-link-1:hover{
+    color: #30e983;
+}
+.btn-hv:hover{
+    background-color: #30e983;
+    border: 2px solid #30e983;
+}
+.other-links-hv:hover{
+    background-color: #30e983;
+    color: #fff;
 }
 .width-100{
     width: 100%;
